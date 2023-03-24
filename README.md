@@ -5,22 +5,22 @@
 - 정해진 작성 형식은 없습니다.
 
 ## 1주차 배운 내용
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
-    int days_in_year = 365;
-    double circumference_rate = 3.1415926535;
-    int a1, a2;
+    int main() {
+        int days_in_year = 365;
+        double circumference_rate = 3.1415926535;
+        int a1, a2;
 
-    printf("Total days in year: %d\n", days_in_year);
-    printf("Circumference rate: %lf\n", circumference_rate);
+        printf("Total days in year: %d\n", days_in_year);
+        printf("Circumference rate: %lf\n", circumference_rate);
 
-    printf("Enter two integers: ");
-    scanf_s("%d %d", &a1, &a2);
-    printf("You entered: %d %d\n", a1, a2);
+        printf("Enter two integers: ");
+        scanf_s("%d %d", &a1, &a2);
+        printf("You entered: %d %d\n", a1, a2);
 
-    return 0;
-}
+        return 0;
+    }
 
 ## 2주차 배운 내용
 - 이곳에 작성하시면 됩니다.
