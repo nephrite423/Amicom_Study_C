@@ -25,6 +25,7 @@
 ## 2주차 배운 내용
 
 1번
+    
     #include <stdio.h>
 
     int main() {
@@ -41,6 +42,7 @@
         return 0;
     }
 2번
+    
     #include <stdio.h>
 
     int main() {
@@ -60,6 +62,7 @@
         return 0;
     }
 3번
+    
     #include <stdio.h>
 
     int main() {
