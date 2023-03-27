@@ -23,7 +23,60 @@
     }
 
 ## 2주차 배운 내용
-- 이곳에 작성하시면 됩니다.
+
+1번
+    #include <stdio.h>
+
+    int main() {
+        int n;
+        scanf_s("%d", &n);
+
+        if ((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0)) {
+            printf("true");
+        }
+        else {
+            printf("false");
+        }
+
+        return 0;
+    }
+2번
+    #include <stdio.h>
+
+    int main() {
+        int n;
+        scanf_s("%d", &n);
+
+        if (n % 2 == 1 && n < 5) {
+            printf("A");
+        }
+        else if (n % 2 == 1 && n >= 5) {
+            printf("B");
+        }
+        else {
+            printf("C");
+        }
+
+        return 0;
+    }
+3번
+    #include <stdio.h>
+
+    int main() {
+        int i, j;
+        for (i = 1; i <= 5; i++) {
+            for (j = 1; j <= i; j++) {
+                if (i % 2 == 1) {
+                    printf("*");
+                }
+            }
+            printf("\n");
+            if (i % 2 == 1) {
+                printf("$\n");
+            }
+        }
+        return 0;
+    }
 
 ## 3주차 배운 내용
 - 이곳에 작성하시면 됩니다.
